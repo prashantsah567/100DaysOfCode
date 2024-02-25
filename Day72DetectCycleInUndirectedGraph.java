@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Day72DetectCycleInUndirectedGraph {
+    // 1. Detect Cycle in Undirected graph
     private static boolean detectCycle(ArrayList<ArrayList<Integer>> adj, int V) {
         boolean[] visited = new boolean[V]; // declare a boolean array to keep track of visited nodes
         // traverse each vertices (nodes) and only call the DFSRec method if node is
